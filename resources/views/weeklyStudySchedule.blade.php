@@ -12,7 +12,8 @@
 <header class="w3-display-container w3-content w3-center" style="max-width:1500px">
   <img class="w3-image" src="{{ asset('/edu-image-final.jpg') }}" alt="Me" width="1420" height="400">
 </header>
-<h1>Study Schedule</h1>
+<div class="main-div">
+<h1><center>Study Schedule</center></h1>
 <div class="w3-content w3-padding-large w3-margin-top list" id="navigation">
 
 @if(!empty($data['newDataArray']) )
@@ -36,6 +37,6 @@
 
 
 </div>
-
+</div>
 </body>
 </html>
