@@ -1,6 +1,3 @@
-h1 {
-    padding-left: 20%;
-}
 ul.mainUL {
 	padding-bottom: 35px;
 	margin: 0;
@@ -34,4 +31,10 @@ li + li {
 	font-weight: 600;
 	color: tomato;
 	font-size: 1.8rem;
+}
+
+.main-div {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
 }
